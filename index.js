@@ -5,3 +5,4 @@ const form = {
     tipPerPerson: 0,
     totalPerPerson: 0
 }
+
