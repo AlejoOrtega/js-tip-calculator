@@ -4,11 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <title>JS - tipcalculator</title>
   </head>
   <body>
-    <div>
-      <h1>hello world!</h1>
+    <div class="main-container">
+      <div class="form">
+        <h1>Bill</h1>
+        <div class="bill-input">
+          <span>$</span>
+          <input placeholder="0"/>
+        </div>
+        <h1>Select Tip %</h1>
+        <div class="radio-toolbar">
+          <input type="radio" value="5%" name="tip">
+          <label>5%</label>
+          <input type="radio" value="10%" name="tip">
+          <label>10%</label>
+          <input type="radio" value="15%" name="tip" checked>
+          <label>15%</label>
+          <input type="radio" value="25%" name="tip">
+          <label>25%</label>
+          <input type="radio" value="50%" name="tip">
+          <label>50%</label>
+          <input placeholder="Custom"/>
+        </div>
+        <h1>Number of People</h1>
+        <div class="people-input">
+          <span>P</span>
+          <input placeholder="0"/>
+        </div>
+      </div>
+
+
+      <div class="results">
+        <div>
+          <div class="tip">
+            <div>
+              <h3>Tip Amount</h3>
+              <p>/ person</p>
+            </div>
+            <h1>$4.27</h1>
+          </div>
+  
+          <div class="tip">
+            <div>
+              <h3>Total</h3>
+              <p>/ person</p>
+            </div>
+            <h1>$32.79</h1>
+          </div>
+        </div>
+
+        <button>RESET</button>
+      </div>
     </div>
   </body>
 </html>
